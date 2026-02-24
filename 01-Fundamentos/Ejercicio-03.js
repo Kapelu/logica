@@ -14,6 +14,7 @@ recortarTexto("Hola", 0);       // ""
 recortarTexto(123, 4);          // "Error: datos inválidos"
 recortarTexto("Hola", -1);      // "Error: datos inválidos"
 
+module.exports = { recortarTexto };
 
 /* explicacion:
 slice(0, longitud) corta el texto desde el inicio hasta el número indicado
@@ -21,7 +22,16 @@ El condicional valida:
     * que texto sea string
     * que si no es string devuelva error
     * que longitud sea mayor a 0
-    * que longitud sea un número entero
-*/
+    * que longitud sea un número entero 
 
-module.exports = { recortarTexto };
+Desarrollo en pseudocódigo
+Proceso RecortarTexto
+    Definir texto Como Cadena
+    Definir longitud Como Entero
+    Escribir 'Ingrese un texto:'
+    Leer texto
+    Escribir 'Ingrese la longitud a recortar:'
+    Leer longitud
+
+    Si texto ES Cadena Y longitud ES Entero Y longitud >= 0 Entonces
+*/  
