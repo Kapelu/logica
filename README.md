@@ -3,39 +3,39 @@ Ejercicios de JavaScript pensados exclusivamente para entrenar pensamiento lógi
 
 ### 🟢 Fundamentos
 
-✅ 01. Determinar si un número es par o impar, validar número. 
+> ✅ 01. Determinar si un número es par o impar, validar número. 
 
-✅ 02. Contar caracteres de un string. 
+> ✅ 02. Contar caracteres de un string. 
 
-✅ 03. Recortar un texto a n caracteres. 
+> ✅ 03. Recortar un texto a n caracteres. 
 
-✅ 04. Separar un string por un carácter dado.
+> ✅ 04. Separar un string por un carácter dado.
 
-✅ 05. Repetir un string n veces.
+> ✅ 05. Repetir un string n veces.
 
-✅ 06. Invertir un string.
+> ✅ 06. Invertir un string.
 
-✅ 07. Convertir texto a mayúsculas y minúsculas.
+> ✅ 07. Convertir texto a mayúsculas y minúsculas.
 
-✅ 08. Sumar dos números sin usar +.
+> ✅ 08. Sumar dos números sin usar +.
 
-✅ 09. Generar un número aleatorio entre dos valores.
+> ✅ 09. Generar un número aleatorio entre dos valores.
 
-✅ 10. Retornar el tipo de dato recibido.
+> ✅ 10. Retornar el tipo de dato recibido.
 
-✅ 11. Verificar si un número es positivo, negativo o cero.
+> ✅ 11. Verificar si un número es positivo, negativo o cero.
 
-✅ 12. Contar vocales en un string.
+> ✅ 12. Contar vocales en un string.
 
-✅ 13. Contar consonantes en un string.
+> ✅ 13. Contar consonantes en un string.
 
-✅ 14. Validar si una palabra o fresa es palíndromo.
+> ✅ 14. Validar si una palabra o fresa es palíndromo.
 
-✅ 15. Comparar dos números y devolver el mayor.
+> ✅ 15. Comparar dos números y devolver el mayor.
 
 ### 🟡 Lógica intermedia
 
-16. Calcular el factorial de un número.
+> ✅ 16. Calcular el factorial de un número.
 
 17. Verificar si un número es primo.
 

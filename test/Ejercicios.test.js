@@ -13,6 +13,7 @@ const { contarVocales } = require("../01-Fundamentos/Ejercicio-12.js")
 const { contarConsonantes } = require("../01-Fundamentos/Ejercicio-13.js")
 const { esPalindromo } = require("../01-Fundamentos/Ejercicio-14.js")
 const { compararNumeros } = require("../01-Fundamentos/Ejercicio-15.js")
+const { factorial } = require("../02-Lógica-Intermedia/Ejercicio-16.js")  
 
     describe('01​-Determinar si un número es par o impar, validar número.', () => {
         test('Validar si es un número', () => {
@@ -228,5 +229,27 @@ const { compararNumeros } = require("../01-Fundamentos/Ejercicio-15.js")
         test("devuelve mensaje si ambos números son iguales", () => {
             const resultado = compararNumeros(5, 5) 
             expect(resultado).toBe("Ambos números son iguales") 
+        })
+    })
+
+    describe("16-funcion que calcula el factorial de un número dado", () => {
+        test("devuelve error si el número es negativo", () => {
+            const resultado = factorial(-5) 
+            expect(resultado).toBe("El factorial no está definido para números negativos.") 
+        })
+
+        test("devuelve 1 si el número es 0", () => {
+            const resultado = factorial(0) 
+            expect(resultado).toBe(1) 
+        })
+
+        test("devuelve 1 si el número es 1", () => {
+            const resultado = factorial(1) 
+            expect(resultado).toBe(1) 
+        })
+
+        test("calcula el factorial de un número dado.", () => {
+            const resultado = factorial(5) 
+            expect(resultado).toBe(120) 
         })
     })
