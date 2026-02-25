@@ -23,7 +23,8 @@ num % 2 === 0 verifica si el residuo de dividir num entre 2 es 0 (número par)
 Si es par, retorna "Es número Par", si no, retorna "Es número Impar"
 El condicional valida que num sea un número usando typeof
 
-Desarrollo en pseudocódigo
+Desarrollo en pseudocódigo con PSeInt:
+
 Proceso EsParOImpar
 	Definir num Como Real
 	Escribir 'Ingrese un n�mero:'

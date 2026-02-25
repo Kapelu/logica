@@ -37,7 +37,7 @@ Ejercicios de JavaScript pensados exclusivamente para entrenar pensamiento lógi
 
 > ✅ 16. Calcular el factorial de un número.
 
-17. Verificar si un número es primo.
+> ✅ 17. Verificar si un número es primo.
 
 18. Encontrar el número mayor en un array.
 
