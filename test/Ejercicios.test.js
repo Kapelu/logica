@@ -13,10 +13,10 @@ const { contarVocales } = require("../01-Fundamentos/Ejercicio-12.js")
 const { contarConsonantes } = require("../01-Fundamentos/Ejercicio-13.js")
 const { esPalindromo } = require("../01-Fundamentos/Ejercicio-14.js")
 const { compararNumeros } = require("../01-Fundamentos/Ejercicio-15.js")
-const { factorial } = require("../02-Lógica-Intermedia/Ejercicio-16.js")
-const { esPrimo } = require("../02-Lógica-Intermedia/Ejercicio-17.js") 
-const { encontrarMayor } = require("../02-Lógica-Intermedia/Ejercicio-18.js")
-const { menorEnArray } = require("../02-Lógica-Intermedia/Ejercicio-19.js")
+const { factorial } = require("../02-Logica-Intermedia/Ejercicio-16.js")
+const { esPrimo } = require("../02-Logica-Intermedia/Ejercicio-17.js") 
+const { encontrarMayor } = require("../02-Logica-Intermedia/Ejercicio-18.js")
+const { menorEnArray } = require("../02-Logica-Intermedia/Ejercicio-19.js")
 
     describe('01​-Determinar si un número es par o impar, validar número.', () => {
         test('Validar si es un número', () => {
