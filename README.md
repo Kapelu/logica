@@ -41,7 +41,7 @@ Ejercicios de JavaScript pensados exclusivamente para entrenar pensamiento lógi
 
 > ✅ 18. Encontrar el número mayor en un array.
 
-19. Encontrar el número menor en un array.
+> ✅ 19. Encontrar el número menor en un array.
 
 20. Sumar todos los valores de un array.
 

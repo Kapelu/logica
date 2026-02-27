@@ -23,25 +23,6 @@ Si num es divisible por algún número, retorna false porque no es primo
 Si el bucle termina sin encontrar ningún divisor, retorna true porque num es primo
 El condicional valida que num sea un número usando typeof
 
-Desarrollo en pseudocódigo con PSeInt:
-
-Proceso esPrimo
-    Definir num Como Real;
-    Escribir "Ingrese un número:";
-    Leer num;
-    Si num < 2; Entonces;
-        resultado <- Falso;
-    Sino
-        Para i=2 Hasta Raiz(num) Hacer
-            Si num MOD i = 0 Entonces
-                resultado <- Falso;
-                Salir
-            FinSi
-        FinPara
-        resultado <- Verdadero;
-    FinSi
-FinProceso  
-
 # Obtener el factorial de un numero de forma recursiva:
 =======================================================
 
