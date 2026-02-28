@@ -43,7 +43,7 @@ Ejercicios de JavaScript pensados exclusivamente para entrenar pensamiento lógi
 
 > ✅ 19. Encontrar el número menor en un array.
 
-20. Sumar todos los valores de un array.
+> ✅ 20. Sumar todos los valores de un array.
 
 21. Promediar valores de un array.
 

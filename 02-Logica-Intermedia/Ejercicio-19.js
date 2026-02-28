@@ -22,9 +22,9 @@ module.exports = { menorEnArray };
 Explicación:
 1. La función `menorEnArray` toma un argumento `arr` que se espera sea un array de números.
 2. Se realizan varias validaciones:
-   - Si `arr` es `undefined`, se retorna un mensaje indicando que no se ingresó un arreglo de números.
-   - Si `arr` no es una instancia de `Array`, se retorna un mensaje indicando que el valor ingresado no es un arreglo.
-   - Si el arreglo está vacío, se retorna un mensaje indicando que el arreglo está vacío.
-   - Se itera sobre cada elemento del arreglo para verificar que todos sean números. Si se encuentra un elemento que no es un número, se retorna un mensaje indicando cuál valor no es un número.
+    - Si `arr` es `undefined`, se retorna un mensaje indicando que no se ingresó un arreglo de números.
+    - Si `arr` no es una instancia de `Array`, se retorna un mensaje indicando que el valor ingresado no es un arreglo.
+    - Si el arreglo está vacío, se retorna un mensaje indicando que el arreglo está vacío.
+    - Se itera sobre cada elemento del arreglo para verificar que todos sean números. Si se encuentra un elemento que no es un número, se retorna un mensaje indicando cuál valor no es un número.
 3. Si todas las validaciones pasan, se utiliza `Math.min(...arr)` para encontrar y retornar el número menor en el arreglo.  
 */  
