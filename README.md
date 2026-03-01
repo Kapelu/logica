@@ -45,7 +45,7 @@ Ejercicios de JavaScript pensados exclusivamente para entrenar pensamiento lógi
 
 > ✅ 20. Sumar todos los valores de un array.
 
-21. Promediar valores de un array.
+> ✅ 21. Promediar valores de un array.
 
 22. Eliminar duplicados de un array.
 

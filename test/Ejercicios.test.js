@@ -18,6 +18,7 @@ const { esPrimo } = require("../02-Logica-Intermedia/Ejercicio-17.js")
 const { encontrarMayor } = require("../02-Logica-Intermedia/Ejercicio-18.js")
 const { menorEnArray } = require("../02-Logica-Intermedia/Ejercicio-19.js")
 const { sumarArray } = require("../02-Logica-Intermedia/Ejercicio-20.js")
+const { promediarArray } = require("../02-Logica-Intermedia/Ejercicio-21.js")
 
     describe('01​-Determinar si un número es par o impar, validar número.', () => {
         test('Validar si es un número', () => {
@@ -343,5 +344,32 @@ const { sumarArray } = require("../02-Logica-Intermedia/Ejercicio-20.js")
         test("suma todos los valores de un array.", () => {
             const resultado = sumarArray([1, 2, 3, 4]) 
             expect(resultado).toBe(10) 
+        })
+    })
+
+    describe("21-funcion que promedia los valores de un array", () => {
+        test("devuelve error si no se ingresa un arreglo", () => {
+            const resultado = promediarArray() 
+            expect(resultado).toBe("No ingresaste un arreglo de números") 
+        })
+
+        test("devuelve error si el valor ingresado no es un arreglo", () => {
+            const resultado = promediarArray("no es un arreglo") 
+            expect(resultado).toBe("El valor que ingresaste no es un arreglo") 
+        })
+
+        test("devuelve error si el arreglo está vacío", () => {
+            const resultado = promediarArray([]) 
+            expect(resultado).toBe("El arreglo está vacío") 
+        })
+        
+        test("devuelve error si algún valor del arreglo no es un número", () => {
+            const resultado = promediarArray([1, 2, "tres", 4]) 
+            expect(resultado).toBe('El valor "tres" no es un número')       
+        })
+
+        test("promedia los valores de un array.", () => {
+            const resultado = promediarArray([1, 2, 3, 4]) 
+            expect(resultado).toBe(2.5) 
         })
     })
