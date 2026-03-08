@@ -1,3 +1,3 @@
 /*
-Programa una función que ordene un array sin usar sort()
+Programa una función que ordene un array sin usar sort().
 */
