@@ -23,6 +23,7 @@ const { sumarArray } = require("../02-Logica-Intermedia/Ejercicio-20.js");
 const { promediarArray } = require("../02-Logica-Intermedia/Ejercicio-21.js");
 const { eliminarDuplicados } = require("../02-Logica-Intermedia/Ejercicio-22.js");
 const { contarElementos } = require("../02-Logica-Intermedia/Ejercicio-23.js");
+const { ordenarArrys, ordenarArray } = require("../02-Logica-Intermedia/Ejercicio-24.js");
 
 module.exports = {
   esParOImpar,
@@ -48,4 +49,5 @@ module.exports = {
   promediarArray,
   eliminarDuplicados,
   contarElementos,
+  ordenarArray
 };

@@ -21,9 +21,9 @@ const {
     sumarArray,
     promediarArray,
     eliminarDuplicados,
-    contarElementos
+    contarElementos,
+    ordenarArray
 } = require("../utils/index.js");   
-
 
     describe('01​-Determinar si un número es par o impar, validar número.', () => {
         test('Validar si es un número', () => {
@@ -396,4 +396,26 @@ const {
         })
     })  
 
-    describe 
+    describe("23-funcion que cuenta el número de elementos únicos en un array", () => {
+        test("devuelve error si no se ingresa un arreglo", () => {
+            const resultado = contarElementos() 
+            expect(resultado).toBe("No ingresaste un arreglo de números") 
+        })
+
+        test("devuelve error si el valor ingresado no es un arreglo", () => {
+            const resultado = contarElementos("no es un arreglo") 
+            expect(resultado).toBe("El valor que ingresaste no es un arreglo") 
+        })
+
+        test("cuenta el número de elementos únicos en un array.", () => {
+            const resultado = contarElementos([1, 2, 3, 2, 4]) 
+            expect(resultado).toBe(4) 
+        })
+    })
+
+    describe("24-funcion que ordena un array sin usar sort()", () => {
+        test("ordena un array sin usar sort().", () => {
+            const resultado = ordenarArray([7,5,2,4,3,9]) 
+            expect(resultado).toEqual([2,3,4,5,7,9]) 
+        })
+    }) 
