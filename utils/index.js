@@ -27,6 +27,7 @@ const { ordenarArray } = require("../02-Logica-Intermedia/Ejercicio-24.js");
 const { invertirArray } = require("../02-Logica-Intermedia/Ejercicio-25.js");
 const { convertirFahrenheitACelsius } = require('../02-Logica-Intermedia/Ejercicio-26.js')
 const { Fibonacci } = require('../02-Logica-Intermedia/Ejercicio-27.js')
+const { aplanarArray } = require('../02-Logica-Intermedia/Ejercicio-28.js') 
 
 module.exports = {
   esParOImpar,
@@ -55,5 +56,6 @@ module.exports = {
   ordenarArray,
   invertirArray,
   convertirFahrenheitACelsius,
-  Fibonacci
+  Fibonacci,
+  aplanarArray
 };

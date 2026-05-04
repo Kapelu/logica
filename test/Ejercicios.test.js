@@ -25,7 +25,8 @@ const {
     ordenarArray,
     invertirArray,
     convertirFahrenheitACelsius,
-    Fibonacci
+    Fibonacci,
+    aplanarArray
 } = require("../utils/index.js");   
 
     describe('01​-Determinar si un número es par o impar, validar número.', () => {
@@ -441,5 +442,12 @@ const {
         test("genera la serie de Fibonacci hasta un número dado.", () => {
             const resultado = Fibonacci(10) 
             expect(resultado).toEqual([0, 1, 1, 2, 3, 5, 8, 13, 21, 34]) 
+        })
+    })
+
+    describe("28-funcion que aplanar un array de arrays en un solo array", () => {
+        test("aplana un array de arrays en un solo array.", () => {
+            const resultado = aplanarArray([[1, 2], [3, 4], [5, 6]]) 
+            expect(resultado).toEqual([1, 2, 3, 4, 5, 6]) 
         })
     })

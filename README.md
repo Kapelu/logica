@@ -59,9 +59,9 @@ Ejercicios de JavaScript pensados exclusivamente para entrenar pensamiento lógi
 
 > ✅ 27. Generar la serie Fibonacci hasta n.
 
-28. Aplanar un array anidado.
+> ✅ 28. Aplanar un array anidado.
 
-29. Validar si un email es correcto (regex).
+> ✅ 29. Validar si un email es correcto (regex).
 
 30. Capitalizar la primera letra de cada palabra.
 
